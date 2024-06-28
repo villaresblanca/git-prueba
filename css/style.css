@@ -38,7 +38,7 @@ div.separador {
 
 /*Body*/
     /*Body Background*/
-body {
+body.bg {
     /*background-color: #e1ffb1;*/
     background-image: url('/image/2.jpg');
     background-repeat: no-repeat;
