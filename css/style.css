@@ -1,0 +1,271 @@
+/*Menú navegación*/
+ul a {
+    text-decoration: none;
+    color:white;
+}
+ul {
+    list-style: none;
+}
+nav li {
+    float: left;
+    margin-right: 20px;
+    border-right: 2px solid rgb(6, 252, 6);
+    border-radius: 20px;
+    background-color: #fa018a;
+    padding: 8px 20px 8px 20px;
+    /*sombra*/
+    box-shadow: 10px 10px 10px 1px #4f614b29; 
+    -moz-box-shadow: 10px 10px 10px 1px #4f614b29; 
+    -webkit-box-shadow: 10px 10px 10px 1px #4f614b29;
+}
+nav li:hover {
+    background-color: green;
+}
+nav {
+    margin: 80px 0%;
+}
+    /*Icon Google Menú*/
+span.menu {
+    color:rgb(0, 255, 255);
+    font-size: 40px;
+    margin-left: 40px;
+}
+/*Fin Menú navegación*/
+
+div.separador {
+    clear: both; /*esta propiedad me separa todo alrededor basicamente sirve para que sea un <hr>*/
+}
+
+/*Body*/
+    /*Body Background*/
+body {
+    /*background-color: #e1ffb1;*/
+    background-image: url('/image/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+    /*Body div*/
+div.container {
+    background-color: #e1ffb1;
+    padding: 2% 6%;
+    border: 2px solid green;
+    margin: 0px 30px 0px 20px;
+    /*simplificado
+    margin: 20px(arriba) 20px(dercha) 20px(abajo) 20px(izq)
+    margin: 0px 50px (eje vertical/eje horizontal)*/    
+}
+    /*Body div sections*/
+section h1 {
+    padding: 2% 2%;
+    border: 5px solid greenyellow;
+    margin: 2% 0%;
+    background-color: #046e34;
+    color: #ffffff;
+}
+section h2, h3 {
+    margin-left: 2%;
+
+}
+section p {
+    margin-left: 2%;
+    padding-bottom: 6%;
+}
+
+    /*Icon Google*/
+span.download {
+    color:#00ff9d;
+    font-size: 50px;
+    margin: 2%;
+}
+div.symbols{
+    display: flex;
+    justify-content: center; 
+}
+span.fav {
+    color:#00ff9d;
+    font-size: 50px;
+    margin: 2%;
+}
+span.lupa {
+    color:#00ff9d;
+    font-size: 50px;
+    margin: 2%;
+}
+span.logout {
+    color:#00ff9d;
+    font-size: 50px;
+    margin: 2%;
+}
+span.up {
+    color:#00ff9d;
+    font-size: 50px;
+    margin: 2%;
+}
+    /*Body section background*/
+section.estrella {
+    background-image: url('/image/4.jpg');
+    
+}
+section.star {
+    background-image: url('/image/1.jpg');
+}
+section.onda {
+    background-image: url('/image/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    /*formulario*/
+form {
+    box-shadow: 5px 18px 20px 15px #fae903b2; 
+    -moz-box-shadow: 5px 18px 20px 15px #fae903b2; 
+    -webkit-box-shadow: 5px 18px 20px 15px #fae903b2;
+}
+/*Fin Body*/
+
+/*Footer*/
+footer {
+    background-color: #00ffff6b;
+    padding: 2px;
+}
+footer.espacio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}/*la etiqueta tiene que esta en footer no en div aunque lo que quiera alinear sean las imagenes juntas, porque tiene que aplicarse a todo, no se, pero he cambiado a div el footer y no funciona*/
+footer p {
+    padding: 7px;
+    border: 3px dashed #fffc2f;
+    margin: 2% 2%;
+    color: #d40059;
+    width: 200px;
+}
+/*Fin Footer*/
+
+/*Fuente Kanit Google Fonts*/
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+  
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+  
+.kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+  
+.kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+  
+.kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+  
+.kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+  
+.kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+  
+.kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+.kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+  
+.kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+/*Fin Fuente Kanit Google Font*/
+
+/*Fuente Lora Google Fonts*/
+.lora-regular {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.lora-bold {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+/*Fin Fuente Lora Google Font*/
+
+
+  
